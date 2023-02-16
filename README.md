@@ -43,13 +43,13 @@ Dán lệnh bên dưới để cài đặt tập lệnh times-openwrt
 
 Dùng wget:
 ```
-wget --no-check-certificate "https://raw.githubusercontent.com/thangnguyencl/times-openwrt/main/times-openwrt?token=GHSAT0AAAAAAB63R75HHN644ADOWCDU4QGCY7N6SPQ" -O /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
+wget --no-check-certificate "https://raw.githubusercontent.com/thangnguyencl/times-openwrt/main/times-openwrt" -O /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
 ```
 
 dùng curl:
 ```
 
-curl -sL https://raw.githubusercontent.com/thangnguyencl/times-openwrt/main/times-openwrt?token=GHSAT0AAAAAAB63R75HHN644ADOWCDU4QGCY7N6SPQ > /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
+curl -sL https://raw.githubusercontent.com/thangnguyencl/times-openwrt/main/times-openwrt > /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
 ```
 
 Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup hoặc tại rc.local nếu ở trong terminal
