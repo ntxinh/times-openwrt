@@ -1,3 +1,8 @@
+# References
+
+- https://github.com/alkhanet26/Sync-Time
+- https://github.com/alkhanet26/sync-date-openwrt-with-bug
+
 # times-openwrt
 Đồng bộ hóa ngày openwrt bằng cách chọn ngày từ miền đã chọn.
 
